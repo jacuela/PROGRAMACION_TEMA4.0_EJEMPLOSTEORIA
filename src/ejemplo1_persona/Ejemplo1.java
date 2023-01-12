@@ -32,20 +32,26 @@ public class Ejemplo1 {
         System.out.println("DNI:"+persona1.getDni());
         System.out.println("Altura:"+persona1.getAltura());
         
-        Persona persona2=new Persona("Antonio",18,"22222222A",1.68);
+        Persona persona2=new Persona("Antonio",18,"22222222A",1.68,70.5);
         System.out.println("\nDatos de persona2");
         System.out.println("-----------------");
-        System.out.println("Nombre:"+persona2.getNombre());
-        System.out.println("Edad:"+persona2.getEdad());
-        System.out.println("DNI:"+persona2.getDni());
-        System.out.println("Altura:"+persona2.getAltura());
+        persona2.imprimirDatos();
+        
+        //Despues de navidad......
+        persona2.setPeso(73.5);
+        System.out.println("datos de persona2 despues de navidad");
+        System.out.println("-------------------------------------");
+        persona2.imprimirDatos();
+
         
         
         
-        Persona persona3=new Persona(persona2); //constructor copia
-        System.out.println("\nDatos de persona3");
-        System.out.println("-----------------");
-        persona3.imprimirDatos();
+        
+        
+//        Persona persona3=new Persona(persona2); //constructor copia
+//        System.out.println("\nDatos de persona3");
+//        System.out.println("-----------------");
+//        persona3.imprimirDatos();
         
         
         
