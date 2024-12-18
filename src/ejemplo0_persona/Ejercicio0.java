@@ -29,6 +29,13 @@ public class Ejercicio0 {
         System.out.println("DNI:"+persona1.getDni());
         
         
+        System.out.println("------------");
+        Persona perico = new Persona("Pedro Zamora",25,"12345678A");
+        System.out.println("Los datos del objeto son:");
+        System.out.println("  DNI: "+perico.getDni());
+        System.out.println("  Nombre: "+perico.getNombre());
+        System.out.println("  Edad: "+perico.getEdad());
+        
         
         
     }

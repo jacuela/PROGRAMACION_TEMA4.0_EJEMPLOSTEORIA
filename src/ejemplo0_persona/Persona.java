@@ -18,6 +18,11 @@ public class Persona {
         
     }
     
+    public Persona(String nombre, int edad, String DNI){
+        this.nombre = nombre;
+        this.edad = edad;
+        this.dni = DNI;
+    }
    
     public String getNombre() {
         return nombre;
